@@ -173,7 +173,7 @@ summary {
     display:none
 }
 
-#debug, .page-nav, .strip .preview img {
+#debug, .page-nav, .strip .preview img, .strip .project img {
     display:block
 }
 
@@ -427,6 +427,13 @@ main {
 .strip .preview, .strip .preview img {
     width: 64px;
     height: 64px;
+    position: absolute;
+    top: 0;
+    left:0
+}
+.strip .project img.mobile {
+    width: 312px;
+    height: 625px;
     position: absolute;
     top: 0;
     left:0
