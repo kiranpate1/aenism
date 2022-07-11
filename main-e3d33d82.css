@@ -173,7 +173,7 @@ summary {
     display:none
 }
 
-#debug, .page-nav, .strip .preview img, .strip .project img {
+#debug, .page-nav, .strip .preview img, .strip .project img,  .strip .project svg {
     display:block
 }
 
@@ -431,7 +431,7 @@ main {
     top: 0;
     left:0
 }
-.strip .project img {
+.strip .project img, .strip .project svg {
     position: absolute;
     top: 0;
     left:0
