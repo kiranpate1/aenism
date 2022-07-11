@@ -386,20 +386,20 @@ main {
 }
 
 .strip, .strip:before {
-    width: 208px;
-    height: 64px;
+/*     width: 208px;
+    height: 64px; */
     position:absolute
 }
 
 .strip {
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
+/*     -webkit-border-radius: 4px;
+    border-radius: 4px; */
     box-sizing: border-box;
     z-index: 0;
     cursor: pointer;
     padding:6px 8px 6px 72px
 }
-
+/* 
 .strip:before {
     content: "";
     left: 0;
@@ -409,7 +409,7 @@ main {
     border-radius: 4px;
     -webkit-box-shadow: inset -1px -1px 0 0 rgba(0, 0, 0, .24), inset 1px 1px 0 0 rgba(0, 0, 0, .24);
     box-shadow:inset -1px -1px 0 0 rgba(0, 0, 0, .24), inset 1px 1px 0 0 rgba(0, 0, 0, .24)
-}
+} */
 
 .strip h3 {
     font-family: GT-Walsheim, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, fira sans, droid sans, helvetica neue, sans-serif;
