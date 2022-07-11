@@ -172,6 +172,9 @@ summary {
 [hidden], template {
     display:none
 }
+.project {
+    position: relative;
+}
 
 #debug, .page-nav, .strip .preview img, .strip .project img,  .strip .project svg {
     display:block
