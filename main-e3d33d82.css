@@ -98,7 +98,7 @@ img {
     border-style:none
 }
 
-svg:not(:root) {
+svg:not(:root):not(.clown-svg) {
     overflow:hidden
 }
 
@@ -348,7 +348,7 @@ hr:before {
     overflow:auto
 }
 
-.strip, .strip .preview, .strip h3, body.home {
+.strip:not(.strip.clown), .strip .preview, .strip h3, body.home {
     overflow:hidden
 }
 
