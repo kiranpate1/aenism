@@ -500,23 +500,19 @@ main {
     border: 1px solid rgba(0, 0, 0, .24);
     line-height:48px
 }
-.circle-large {
-    width: 200px;
-    height: 200px;
-    -webkit-border-radius: 100px;
-    border-radius: 100px;
-}
 .circle-medium {
     width: 150px;
     height: 150px;
     -webkit-border-radius: 75px;
     border-radius: 75px;
+    border: 0!important;
 }
 .circle-small {
     width: 100px;
     height: 100px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
+    border: 0!important;
 }
 
 .pill, .single figure figcaption {
