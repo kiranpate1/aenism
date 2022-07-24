@@ -488,26 +488,17 @@ main {
 }
 
 .page-nav {
-    font-family: GT-Walsheim, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, fira sans, droid sans, helvetica neue, sans-serif;
-    font-weight: 700;
-    color: #000;
     position: absolute;
-/*     width: 48px;
-    height: 48px; */
     box-sizing: border-box;
-/*     -webkit-border-radius: 24px;
-    border-radius: 24px; */
-    border: 1px solid rgba(0, 0, 0, .24);
-    line-height:48px
-}
-.circle-medium {
     width: 150px;
     height: 150px;
     -webkit-border-radius: 75px;
     border-radius: 75px;
     border: 0!important;
 }
-.circle-small {
+.page-nav-2 {
+    position: absolute;
+    box-sizing: border-box;
     width: 100px;
     height: 100px;
     -webkit-border-radius: 50px;
