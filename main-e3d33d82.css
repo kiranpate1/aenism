@@ -659,3 +659,38 @@ main {
     opacity: 1;
     background-color: #6977fd
 }
+
+.clown-svg, .clown.hover .clown-circle {
+	opacity: 0;
+}
+.clown.hover .clown-svg {
+	opacity: 1;
+}
+.pink-heart.hover svg path {
+	fill: #FF70A3;
+}
+.asterisk.hover svg path {
+	fill: #FFA149;
+}
+.mobile, .mobile-img {
+  width: 234px;
+  height: 468.75px;
+  border-radius: 36px;
+}
+.desktop, .desktop-img {
+	width: 540px;
+  height: 384px;
+  border-radius: 9px;
+}
+@media screen and (max-width: 991px) {
+	.mobile, .mobile-img {
+  	width: 157px;
+    height: 316px;
+    border-radius: 24px;
+  }
+  .desktop, .desktop-img {
+    width: 270px;
+    height: 192px;
+    border-radius: 5px;
+  }
+}
