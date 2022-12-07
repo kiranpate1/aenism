@@ -496,6 +496,9 @@ main {
     border-radius: 75px;
     border: 0!important;
 }
+.page-nav.specific-1 {
+    height: 122px;
+}
 .page-nav-2 {
     position: absolute;
     box-sizing: border-box;
@@ -504,6 +507,9 @@ main {
     -webkit-border-radius: 50px;
     border-radius: 50px;
     border: 0!important;
+}
+.page-nav-2.specific-2 {
+    height: 75px;
 }
 
 .pill, .single figure figcaption {
