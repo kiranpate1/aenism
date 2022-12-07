@@ -699,4 +699,16 @@ main {
     height: 192px;
     border-radius: 5px;
   }
+  .page-nav {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  }
+   .page-nav-2 {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+  }
 }
