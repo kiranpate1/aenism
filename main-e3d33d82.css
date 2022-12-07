@@ -197,7 +197,7 @@ summary {
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, fira sans, droid sans, helvetica neue, sans-serif;
-    font-size: 1.7rem;
+    /*font-size: 1.7rem;*/
     font-weight: 400;
     letter-spacing: 0;
     line-height: 2.2rem;
