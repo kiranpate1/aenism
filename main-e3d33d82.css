@@ -9,13 +9,13 @@
     height: 192px!important;
     border-radius: 5px!important;
   }
-  .page-nav {
+  .page-nav, .page-nav svg, .page-nav rect {
     width: 100px!important;
     height: 100px!important;
     -webkit-border-radius: 50px!important;
     border-radius: 50px!important;
   }
-   .page-nav-2 {
+   .page-nav-2, .page-nav-2 svg, .page-nav-2 rect {
     width: 60px!important;
     height: 60px!important;
     -webkit-border-radius: 30px!important;
