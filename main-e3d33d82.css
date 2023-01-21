@@ -674,10 +674,6 @@ main {
     background-color: #6977fd
 }
 
-.mobile-hover {
-	transform:translateX(-275px);
-}
-
 .clown-svg, .clown.hover .clown-circle, .mobile-hover {
 	opacity: 0;
 }
