@@ -496,6 +496,10 @@ main {
     border-radius: 75px;
     border: 0!important;
 }
+.page-nav svg {
+    width: 150px;
+    height: 150px;
+}
 .page-nav.specific-1 {
     height: 122px;
 }
@@ -507,6 +511,10 @@ main {
     -webkit-border-radius: 50px;
     border-radius: 50px;
     border: 0!important;
+}
+.page-nav svg {
+    width: 100px;
+    height: 100px;
 }
 .page-nav-2.specific-2 {
     height: 75px;
