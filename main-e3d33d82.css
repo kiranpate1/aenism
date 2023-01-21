@@ -1,3 +1,29 @@
+@media screen and (max-width: 991px) {
+	.mobile, .mobile-img {
+  	width: 157px!important;
+    height: 316px!important;
+    border-radius: 24px!important;
+  }
+  .desktop, .desktop-img {
+    width: 270px!important;
+    height: 192px!important;
+    border-radius: 5px!important;
+  }
+  .page-nav {
+    width: 100px!important;
+    height: 100px!important;
+    -webkit-border-radius: 50px!important;
+    border-radius: 50px!important;
+  }
+   .page-nav-2 {
+    width: 60px!important;
+    height: 60px!important;
+    -webkit-border-radius: 30px!important;
+    border-radius: 30px!important;
+  }
+}
+
+
 /*!normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css*/
 .pill, a {
     text-decoration:none
@@ -679,36 +705,13 @@ main {
 	fill: #FFA149;
 }
 .mobile, .mobile-img {
-  width: 234px;
-  height: 468.75px;
-  border-radius: 36px;
+  width: 273.76px;
+  height: 564.48;
+  border-radius: 43.89px;
 }
 .desktop, .desktop-img {
-	width: 540px;
+  width: 540px;
   height: 384px;
   border-radius: 9px;
 }
-@media screen and (max-width: 991px) {
-	.mobile, .mobile-img {
-  	width: 157px;
-    height: 316px;
-    border-radius: 24px;
-  }
-  .desktop, .desktop-img {
-    width: 270px;
-    height: 192px;
-    border-radius: 5px;
-  }
-  .page-nav {
-    width: 100px;
-    height: 100px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-  }
-   .page-nav-2 {
-    width: 60px;
-    height: 60px;
-    -webkit-border-radius: 30px;
-    border-radius: 30px;
-  }
-}
+
