@@ -76,11 +76,11 @@ function makeWorld() {
                 angle: 2 * Math.random() - 1,
             });
         else if (p[M].classList.contains("page-nav"))
-            var W = d.circle(n.centerX + Math.floor((Math.random() * n.width) / 2) - n.width / 4, 0, 75, { restitution: 0.3, friction: 6, frictionAir: 0, frictionStatic: 2, density: 100, angle: 2 * Math.random() - 1 });
+            var W = d.circle(n.centerX + Math.floor((Math.random() * n.width) / 2) - n.width / 4, 0, 75, { restitution: 0.3, friction: 6, frictionAir: 0, frictionStatic: 6, density: 100, angle: 2 * Math.random() - 1 });
         else if (p[M].classList.contains("page-nav-2"))
-            var W = d.circle(n.centerX + Math.floor((Math.random() * n.width) / 2) - n.width / 4, 0, 50, { restitution: 0.3, friction: 6, frictionAir: 0, frictionStatic: 2, density: 100, angle: 2 * Math.random() - 1 });
+            var W = d.circle(n.centerX + Math.floor((Math.random() * n.width) / 2) - n.width / 4, 0, 50, { restitution: 0.3, friction: 6, frictionAir: 0, frictionStatic: 6, density: 100, angle: 2 * Math.random() - 1 });
         else if (p[M].classList.contains("page-nav-3"))
-            var W = d.circle(n.centerX + Math.floor((Math.random() * n.width) / 2) - n.width / 4, 0, 37.5, { restitution: 0.3, friction: 6, frictionAir: 0, frictionStatic: 2, density: 100, angle: 2 * Math.random() - 1 });
+            var W = d.circle(n.centerX + Math.floor((Math.random() * n.width) / 2) - n.width / 4, 0, 37.5, { restitution: 0.3, friction: 6, frictionAir: 0, frictionStatic: 6, density: 100, angle: 2 * Math.random() - 1 });
         (p[M].id = W.id), b.push(W);
     }
     s.add(u.world, b);
