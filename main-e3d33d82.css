@@ -519,6 +519,22 @@ main {
 .page-nav-2.specific-2 {
     height: 75px;
 }
+.page-nav-3 {
+    position: absolute;
+    box-sizing: border-box;
+    width: 75px;
+    height: 75px;
+    -webkit-border-radius: 37.5px;
+    border-radius: 37.5px;
+    border: 0!important;
+}
+.page-nav-3 svg {
+    width: 75px;
+    height: 75px;
+}
+.page-nav-3.specific-3 {
+    height: 55px;
+}
 
 .pill, .single figure figcaption {
     font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, fira sans, droid sans, helvetica neue, sans-serif;
