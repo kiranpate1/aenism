@@ -725,3 +725,12 @@ main {
     border-radius: 5px!important;
   }
 }
+
+
+@media screen and (max-width: 489px) {
+  .mobile, .mobile-img, .mobile-hover {
+    width: 135.68px!important;
+    height: 279.76px!important;
+    border-radius: 21.75px!important;
+  }
+}
