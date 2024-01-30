@@ -705,7 +705,7 @@ main {
 .mobile, .mobile-img {
   width: 204px;
   height: 432px;
-  border-radius: 32px;
+  border-radius: 0px;
 }
 .desktop, .desktop-img {
   width: 540px;
