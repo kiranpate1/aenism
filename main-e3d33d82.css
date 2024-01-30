@@ -703,9 +703,9 @@ main {
 	fill: #FFA149;
 }
 .mobile, .mobile-img {
-  width: 273.76px;
-  height: 564.48px;
-  border-radius: 64px;
+  width: 204px;
+  height: 432px;
+  border-radius: 32px;
 }
 .desktop, .desktop-img {
   width: 540px;
