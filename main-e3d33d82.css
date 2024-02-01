@@ -693,7 +693,7 @@ main {
 .clown-svg, .clown.hover .clown-circle, .mobile-hover, .desktop-hover {
 	opacity: 0;
 }
-.clown.hover .clown-svg, .mobile.hover .mobile-hover .desktop-hover {
+.clown.hover .clown-svg, .mobile.hover .mobile-hover, .desktop.hover .desktop-hover {
 	opacity: 1;
 }
 .pink-heart.hover svg path {
