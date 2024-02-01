@@ -690,10 +690,10 @@ main {
     background-color: #6977fd
 }
 
-.clown-svg, .clown.hover .clown-circle, .mobile-hover {
+.clown-svg, .clown.hover .clown-circle, .mobile-hover, .desktop-hover {
 	opacity: 0;
 }
-.clown.hover .clown-svg, .mobile.hover .mobile-hover {
+.clown.hover .clown-svg, .mobile.hover .mobile-hover .desktop-hover {
 	opacity: 1;
 }
 .pink-heart.hover svg path {
@@ -719,7 +719,7 @@ main {
     height: 323.76px!important;
     border-radius: 24px!important;
   }
-  .desktop, .desktop-img {
+  .desktop, .desktop-img, .desktop-hover {
     width: 270px!important;
     height: 192px!important;
     border-radius: 5px!important;
@@ -732,5 +732,10 @@ main {
     width: 135.68px!important;
     height: 279.76px!important;
     border-radius: 21.75px!important;
+  }
+    .desktop, .desktop-img, .desktop-hover {
+    width: 202.5px!important;
+    height: 144px!important;
+    border-radius: 5px!important;
   }
 }
