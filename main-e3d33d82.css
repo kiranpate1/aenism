@@ -690,7 +690,7 @@ main {
     background-color: #6977fd
 }
 
-.clown-svg, .clown.hover .clown-circle, .mobile-hover, .desktop-hover {
+.clown-svg, .clown.hover .clown-circle, .mobile-hover, .desktop.hover .desktop-hover {
 	opacity: 0;
 }
 .clown.hover .clown-svg, .mobile.hover .mobile-hover, .desktop.hover .desktop-hover {
@@ -708,8 +708,8 @@ main {
   border-radius: 43.89px;
 }
 .desktop, .desktop-img {
-  width: 540px;
-  height: 384px;
+  width: 400px;
+  height: 284.44px;
   border-radius: 9px;
 }
 
