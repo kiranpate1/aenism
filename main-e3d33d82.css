@@ -690,7 +690,7 @@ main {
     background-color: #6977fd
 }
 
-.clown-svg, .clown.hover .clown-circle, .mobile-hover, .desktop.hover .desktop-hover {
+.clown-svg, .clown.hover .clown-circle, .mobile-hover, .desktop-hover {
 	opacity: 0;
 }
 .clown.hover .clown-svg, .mobile.hover .mobile-hover, .desktop.hover .desktop-hover {
