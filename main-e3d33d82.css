@@ -506,34 +506,34 @@ main {
 .page-nav-2 {
     position: absolute;
     box-sizing: border-box;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
     border: 0!important;
 }
 .page-nav-2 svg {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
 }
 .page-nav-2.specific-2 {
-    height: 75px;
+    height: 55px;
 }
 .page-nav-3 {
     position: absolute;
     box-sizing: border-box;
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     -webkit-border-radius: 37.5px;
     border-radius: 37.5px;
     border: 0!important;
 }
 .page-nav-3 svg {
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
 }
 .page-nav-3.specific-3 {
-    height: 55px;
+    height: 40px;
 }
 
 .pill, .single figure figcaption {
@@ -729,13 +729,13 @@ main {
 
 @media screen and (max-width: 489px) {
   .mobile, .mobile-img, .mobile-hover {
-    width: 135.68px!important;
-    height: 279.76px!important;
-    border-radius: 21.75px!important;
+    width: 101.76px!important;
+    height: 209.82px!important;
+    border-radius: 16.31px!important;
   }
     .desktop, .desktop-img, .desktop-hover {
-    width: 202.5px!important;
-    height: 144px!important;
-    border-radius: 5px!important;
+    width: 151.88px!important;
+    height: 108px!important;
+    border-radius: 3.75px!important;
   }
 }
